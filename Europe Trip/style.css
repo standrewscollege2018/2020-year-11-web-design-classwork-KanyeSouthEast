@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(0,255, 0);
+  background-color:#c1b069;
   font-family: cursive;
 
 }
@@ -14,6 +14,36 @@ a {
 }
 
 
-a: link {
-  color: rgb(255,0,0);
+.title {
+  font-size: 40pt;
+  font-family: fantasy, cursive;
+  text-align: center;
+}
+.paragraph{
+  font-size: 12pt;
+  font-family: hectiva, sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+.content-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  padding: 50px;
+}
+.countries {
+  background-color: rgb(119, 119, 119)
+}
+
+.links{
+  padding: 20px;
+  font-size: 11pt;
+  color: rgb(0,17,255);
+}
+
+.list{
+  margin-left: 25px;
+  font-size: 12pt;
+  font-family: fantasy, cursive;
 }
